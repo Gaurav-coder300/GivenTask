@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="143237" started-at="2019-11-19T13:54:12Z" finished-at="2019-11-19T13:56:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="143237" started-at="2019-11-19T13:54:12Z" finished-at="2019-11-19T13:56:35Z">
+      <class name="test.ScenarioBased">
+        <test-method status="PASS" signature="browserInIt(java.lang.String, java.lang.String)[pri:0, instance:test.ScenarioBased@22a637e7]" name="browserInIt" is-config="true" duration-ms="58704" started-at="2019-11-19T13:54:12Z" finished-at="2019-11-19T13:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.myntra.com/men-tshirts?sort=price_desc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInIt -->
+        <test-method status="PASS" signature="practicalSecond()[pri:0, instance:test.ScenarioBased@22a637e7]" name="practicalSecond" duration-ms="76118" started-at="2019-11-19T13:55:10Z" finished-at="2019-11-19T13:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practicalSecond -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.ScenarioBased@22a637e7]" name="afterTest" is-config="true" duration-ms="7317" started-at="2019-11-19T13:56:27Z" finished-at="2019-11-19T13:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.ScenarioBased -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
